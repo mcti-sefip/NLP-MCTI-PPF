@@ -1,2 +1,1 @@
-# NLP-MCTI-PPF
-Natural Language Processing (NLP) applied to the Research Financial Products Portfolio (PPF) of the Brazilian Ministry of Science, Technology and Innovations (MCTI)
+This website was built using [quarto](https://quarto.org/) with modifications on template to represent the project. The folder sections, has the description about the sections in the web contend.

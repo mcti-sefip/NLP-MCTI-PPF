@@ -1,0 +1,44 @@
+---
+title: ""
+format:
+  html:
+    # theme: quartz
+    toc: true
+    toc-location: left
+    html-math-method: katex
+    css: style.css
+    self-contained: false
+    code-background: true
+    template: tamplate.html
+    pagetitle: NLP-MCTI-PPF
+    output-dir: docs
+---
+
+  
+<!-- {{< include _test.html >}} -->
+
+```{r}
+x=3+2
+print(x)
+```
+
+
+# NLP-MCTI-PPF
+
+Natural Language Processing (NLP) applied to the Research Financial Products Portfolio (PPF) of the Brazilian Ministry of Science, Technology and Innovations (MCTI)
+
+---
+
+## Gostaria de falar
+
+Ao falar sobre tal seção temos que
+
+ao falar que
+
+
+---
+
+{{< include \sections\_syntesis.md >}}
+
+
+

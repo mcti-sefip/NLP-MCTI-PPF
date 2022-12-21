@@ -1,0 +1,14 @@
+{
+  "hash": "c81d366a89710a9d3957788bdb71a223",
+  "result": {
+    "markdown": "---\ntitle: \"\"\nformat:\n  html:\n    # theme: quartz\n    toc: true\n    toc-location: left\n    html-math-method: katex\n    css: style.css\n    self-contained: false\n    code-background: true\n    template: tamplate.html\n    pagetitle: NLP-MCTI-PPF\n    output-dir: docs\n---\n\n\n  \n<!-- {{< include _test.html >}} -->\n\n\n::: {.cell}\n\n```{.r .cell-code}\nx=3+2\nprint(x)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 5\n```\n:::\n:::\n\n\n\n# NLP-MCTI-PPF\n\nNatural Language Processing (NLP) applied to the Research Financial Products Portfolio (PPF) of the Brazilian Ministry of Science, Technology and Innovations (MCTI)\n\n---\n\n## Gostaria de falar\n\nAo falar sobre tal seção temos que\n\nao falar que\n\n\n---\n\n## Synthesis\n\nSobre algo que quero\n\n\n\n```{=html}\n<iframe\n\tsrc=\"https://unb-lamfo-nlp-mcti-nlp-ats-mcti.hf.space\"\n\tframeborder=\"0\"\n\twidth=\"100%\"\n\theight=\"450\"\n></iframe>\n```\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
