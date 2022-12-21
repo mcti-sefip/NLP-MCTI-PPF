@@ -19,21 +19,21 @@ jobs:
         with:
           to: html # If set, it will be equivalent to `quarto render --to html`
 
-      - name: Copy Quarto Project to gh-pages
-      - uses: actions/checkout@v2
-        env:
-          SRC_FOLDER_PATH: 'docs'
-          TARGET_BRANCH: 'gh-pages'
-        run: |
-          files=$(find $SRC_FOLDER_PATH -type f) # get the file list
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
-          git fetch                         # fetch branches
-          git checkout $TARGET_BRANCH       # checkout to your branch
-          git checkout ${GITHUB_REF##*/} -- $files # copy files from the source branch
-          git add -A
-          git diff-index --quiet HEAD ||  git commit -am "deploy files"  # commit to the repository (ignore if no modification)
-          git push origin $TARGET_BRANCH # push to remote branch
+      # - name: Copy Quarto Project to gh-pages
+      # - uses: actions/checkout@v2
+      #   env:
+      #     SRC_FOLDER_PATH: 'docs'
+      #     TARGET_BRANCH: 'gh-pages'
+      #   run: |
+      #     files=$(find $SRC_FOLDER_PATH -type f) # get the file list
+      #     git config --global user.name 'GitHub Action'
+      #     git config --global user.email 'action@github.com'
+      #     git fetch                         # fetch branches
+      #     git checkout $TARGET_BRANCH       # checkout to your branch
+      #     git checkout ${GITHUB_REF##*/} -- $files # copy files from the source branch
+      #     git add -A
+      #     git diff-index --quiet HEAD ||  git commit -am "deploy files"  # commit to the repository (ignore if no modification)
+      #     git push origin $TARGET_BRANCH # push to remote branch
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
