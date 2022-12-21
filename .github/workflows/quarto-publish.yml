@@ -21,7 +21,7 @@ jobs:
           path: index.qmd
 
       - name: Publish HTML book
-          uses: quarto-dev/quarto-actions/publish@v2
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
           render: false      
