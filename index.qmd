@@ -39,6 +39,7 @@ ao falar que
 ---
 
 {{< include sections/_syntesis.md >}}
+{{< include sections/_classification.md >}}
 
 
 
