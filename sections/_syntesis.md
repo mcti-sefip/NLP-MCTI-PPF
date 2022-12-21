@@ -1,6 +1,6 @@
 ## Synthesis
 
-Sobre algo que quero falar, teste de exucução
+Sobre algo que quero falar, teste de execução
 
 
 
