@@ -230,10 +230,10 @@ class Data:
                     texts_df = pd.concat([texts_df, pd.DataFrame({"text": [self._clean_text(text)]})], ignore_index=True)
                     summaries_df = pd.concat([summaries_df, pd.DataFrame({"summary 0": [self._clean_text(ext_sum)]})], ignore_index=True)
                     self.data = pd.concat([texts_df, summaries_df], axis=1)
-                    self.data.to_csv(os.path.join(processed_path, "CNN_Corpus_Abstractive.csv"), index=False)
+                    self.data.to_csv(os.path.join(processed_path, "CNN_Corpus_Extractive.csv"), index=False)
                     self.data = self.data.head(self.size)
         else:
-            self.data = pd.read_csv(os.path.join(processed_path, "CNN_Corpus_Abstractive.csv"))
+            self.data = pd.read_csv(os.path.join(processed_path, "CNN_Corpus_Extractive.csv"))
             self.data = self.data.head(self.size)
 
     def read_mcti_data(self, document):
