@@ -33,12 +33,15 @@ Natural Language Processing (NLP) applied to the Research Financial Products Por
 
 Ao falar sobre tal seção temos que
 
-ao falar que
+ao falar queindex.qmd
 
 
 ---
 
 {{< include sections/_syntesis.md >}}
+
+aaaaaa
+
 {{< include sections/_classification.md >}}
 
 
