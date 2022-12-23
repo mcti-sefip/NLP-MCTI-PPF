@@ -1,1 +1,0 @@
-Sitemap: https://mcti-sefip.github.io/NLP-MCTI-PPF/sitemap.xml
