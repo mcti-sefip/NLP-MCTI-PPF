@@ -132,3 +132,7 @@ dmypy.json
 
 /.quarto/
 /_site/
+
+.text
+
+*.py

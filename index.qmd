@@ -23,6 +23,6 @@ format:
 
 {{< include sections/_syntesis.md >}}
 
-{{< include sections/__recommedation.md >}}
+{{< include sections/_recommedation.md >}}
 
 
