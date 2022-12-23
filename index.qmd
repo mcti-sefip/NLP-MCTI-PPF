@@ -6,6 +6,7 @@ format:
   html:
     # theme: quartz
     toc: true
+    toc-title: Nesta página
     toc-location: left
     html-math-method: katex
     css: style.css
@@ -19,10 +20,14 @@ format:
 {{< include sections/_intro.md >}}
 
 
+{{< include sections/_scrapy.md >}}
+
 {{< include sections/_classification.md >}}
 
 {{< include sections/_syntesis.md >}}
 
 {{< include sections/_recommedation.md >}}
+
+{{< include sections/_SLR.md >}}
 
 
