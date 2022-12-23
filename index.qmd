@@ -1,5 +1,7 @@
 ---
 title: ""
+execute: 
+  enabled: false
 format:
   html:
     # theme: quartz
@@ -14,35 +16,13 @@ format:
     output-dir: docs
 ---
 
-  
-<!-- {{< include _test.html >}} -->
+{{< include sections/_intro.md >}}
 
-```{r}
-x=3+2
-print(x)
-```
-
-
-# NLP-MCTI-PPF
-
-Natural Language Processing (NLP) applied to the Research Financial Products Portfolio (PPF) of the Brazilian Ministry of Science, Technology and Innovations (MCTI)
-
----
-
-## Gostaria de falar
-
-Ao falar sobre tal seção temos que
-
-ao falar queindex.qmd
-
-
----
-
-{{< include sections/_syntesis.md >}}
-
-aaaaaa
 
 {{< include sections/_classification.md >}}
 
+{{< include sections/_syntesis.md >}}
+
+{{< include sections/__recommedation.md >}}
 
 

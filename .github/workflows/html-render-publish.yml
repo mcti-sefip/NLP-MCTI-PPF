@@ -1,0 +1,25 @@
+on:
+  push:
+    branches: main
+    paths:
+      - docs/**
+
+
+name: Publish HTML
+
+permissions:
+   contents: write
+
+jobs:
+  Html-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+        
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: docs # The folder the action should deploy.
