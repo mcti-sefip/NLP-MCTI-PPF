@@ -5,7 +5,7 @@ A recomendação de oportunidades é o processo de sugerir oportunidades de pesq
 
 É possível utilizar modelos de aprendizado de máquina para realizar a recomendação de oportunidades de maneira mais automatizada. Por exemplo, modelos de agrupamento de dados ou modelos de tópico podem ser utilizados para agrupar oportunidades de acordo com tópicos similares e sugerir oportunidades aos pesquisadores com base em seus interesses e histórico de pesquisa.
 
-Abaixo temos uma demostração sobre a pesquisa de recomendação disponibilizada no hugging-face, no qual a descrição do modelo pode ser encontrada no model card [link].
+Nesta parte do projeto, o modelo pesquisado é descrito como model card no hugging face como [unb-lamfo-nlp-mcti/NLP-Recommendation-MCTI](https://huggingface.co/unb-lamfo-nlp-mcti/NLP-Recommendation-MCTI) e assim como sua demonstração da aplicação do modelo encontrada em [unb-lamfo-nlp-mcti/nlp-mcti-lda-recommender](https://huggingface.co/spaces/unb-lamfo-nlp-mcti/nlp-mcti-lda-recommender) ou como verificada abaixo.
 
 
 ```{=html}

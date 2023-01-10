@@ -2,11 +2,11 @@
 
 A síntese de texto é o processo de criação de resumos curtos e concisos de um texto mais longo. Isso pode ser útil para ajudar os pesquisadores a entender rapidamente o conteúdo de um documento de pesquisa ou para criar resumos de oportunidades de pesquisa que possam ser facilmente compreendidos e avaliados pelos pesquisadores.
 
-Existem várias tentativas de usar modelos de machine learning para realizar a síntese de texto. Um exemplo é o uso de modelos de seqüência-para-seqüência, que são treinados para gerar resumos a partir de um texto de entrada. Esses modelos são treinados com grandes conjuntos de dados de texto etiquetados manualmente, como artigos científicos e relatórios de pesquisa, e são capazes de aprender a gerar resumos que capturam a essência do texto de entrada.
+Existem várias tentativas de usar modelos de aprendizado de máquina para realizar a síntese de texto. Um exemplo é o uso de modelos de seqüência-para-seqüência, que são treinados para gerar resumos a partir de um texto de entrada. Esses modelos são treinados com grandes conjuntos de dados de texto etiquetados manualmente, como artigos científicos e relatórios de pesquisa, e são capazes de aprender a gerar resumos que capturam a essência do texto de entrada.
 
 Outra técnica comum é o uso de modelos de aprendizado não supervisionado, como agrupamento de dados ou modelos de tópico, para criar resumos a partir de um texto de entrada. Esses modelos podem ajudar a identificar padrões nos dados de texto e a selecionar os trechos mais relevantes do texto para incluir no resumo.
 
-Dentre os modelos pesquisados neste projeto, algum deles podem ser utilizados no app a seguir, no qual a descrição sobre estes pode ser encontrada em [link]
+Os modelos pesquisados neste projeto sobre a síntese de texto para a sumarização das oportunidades de financiamento, está descritas como model card no repositório exposto pela plataforma Hugging face denotada como [unb-lamfo-nlp-mcti/NLP-ATS-MCTI](https://huggingface.co/unb-lamfo-nlp-mcti/NLP-ATS-MCTI), este também possui uma demo para sumarização de textos denotado como [unb-lamfo-nlp-mcti/NLP-ATS-MCTI](https://huggingface.co/spaces/unb-lamfo-nlp-mcti/NLP-ATS-MCTI), esta demo se pode ser testada abaixo.
 
 
 ```{=html}
