@@ -1,1 +1,1 @@
-Todos os protótipo online foram utilizados como scripts de teste e validação para cada os respectivos protótipos descrito no ariquivo [NLP-MCTI-PPF/Online_prototype/README.md](https://github.com/mcti-sefip/NLP-MCTI-PPF/blob/main/Online_prototype/README.md).
+Todos os protótipo online foram utilizados como scripts de teste e validação para cada respectivos protótipos descrito no arquivo [NLP-MCTI-PPF/Online_prototype/README.md](https://github.com/mcti-sefip/NLP-MCTI-PPF/blob/main/Online_prototype/README.md).
