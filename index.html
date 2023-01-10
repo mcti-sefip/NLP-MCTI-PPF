@@ -57,7 +57,7 @@ ul.task-list{list-style: none;}
 <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="floating">
+<body>
 
 <div class="block">
   <div class="centered">
@@ -85,22 +85,20 @@ ul.task-list{list-style: none;}
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc">
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
   <li><a href="#nlp-mcti-ppf" id="toc-nlp-mcti-ppf" class="nav-link active" data-scroll-target="#nlp-mcti-ppf">NLP-MCTI-PPF</a></li>
   <li><a href="#raspagem-de-dados" id="toc-raspagem-de-dados" class="nav-link" data-scroll-target="#raspagem-de-dados">Raspagem de dados</a></li>
+  <li><a href="#revisão-sistemática-da-literatura" id="toc-revisão-sistemática-da-literatura" class="nav-link" data-scroll-target="#revisão-sistemática-da-literatura">Revisão sistemática da Literatura</a></li>
   <li><a href="#classificação-de-oportunidades" id="toc-classificação-de-oportunidades" class="nav-link" data-scroll-target="#classificação-de-oportunidades">Classificação de oportunidades</a></li>
   <li><a href="#síntese-de-texto-para-oportunidades" id="toc-síntese-de-texto-para-oportunidades" class="nav-link" data-scroll-target="#síntese-de-texto-para-oportunidades">Síntese de texto para oportunidades</a></li>
   <li><a href="#recomedação-de-oportunidades" id="toc-recomedação-de-oportunidades" class="nav-link" data-scroll-target="#recomedação-de-oportunidades">Recomedação de oportunidades</a></li>
-  <li><a href="#revisão-sistemática-da-literatura" id="toc-revisão-sistemática-da-literatura" class="nav-link" data-scroll-target="#revisão-sistemática-da-literatura">Revisão sistemática da Literatura</a></li>
   </ul>
 </nav>
-</nav>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -111,9 +109,9 @@ ul.task-list{list-style: none;}
 
 <section id="nlp-mcti-ppf" class="level1">
 <h1>NLP-MCTI-PPF</h1>
-<p>O projeto NLP-MCTI-PPF é uma iniciativa do Ministério da Ciência, Tecnologia e Inovações (MCTI) em parceria com o Laboratório de Aprendizado de Máquina em Finanças e Organizações (LAMFO), no intuito de usar técnicas de processamento de linguagem natural (NLP) para analisar o portfólio de produtos financeiros de pesquisa (PPF) do Brasil para ajudar pesquisadores brasileiros a encontrar oportunidades de pesquisa dentro e fora do Brasil.</p>
+<p>O projeto <a href="https://github.com/mcti-sefip/NLP-MCTI-PPF">NLP-MCTI-PPF</a> é uma iniciativa do Ministério da Ciência, Tecnologia e Inovações (MCTI) em parceria com o Laboratório de Aprendizado de Máquina em Finanças e Organizações (LAMFO), no intuito de usar técnicas de processamento de linguagem natural (NLP) para analisar o portfólio de produtos financeiros de pesquisa (PPF) do Brasil para ajudar pesquisadores brasileiros a encontrar oportunidades de pesquisa dentro e fora do Brasil.</p>
 <p>Com o uso de técnicas de NLP, o projeto pode analisar grandes conjuntos de dados de texto, como propostas de financiamento, relatórios de pesquisa e outros documentos relacionados ao PPF, e extrair informações relevantes como palavras-chave, autores, instituições e tópicos de pesquisa. Essas informações podem então ser usadas para criar um mapa conceptual que os pesquisadores possam explorar para encontrar oportunidades de financiamento e colaboração.</p>
-<p>Além disso, o projeto NLP-MCTI-PPF também pode ajudar os pesquisadores a entender melhor as tendências e lacunas na pesquisa em seu campo, identificar novas áreas de interesse e desenvolver ideias inovadoras para futuras pesquisas.</p>
+<p>Além disso, o projeto <a href="https://github.com/mcti-sefip/NLP-MCTI-PPF">NLP-MCTI-PPF</a> também pode ajudar os pesquisadores a entender melhor as tendências e lacunas na pesquisa em seu campo, identificar novas áreas de interesse e desenvolver ideias inovadoras para futuras pesquisas.</p>
 <p>No contexto de ajudar os pesquisadores a encontrar oportunidades, existem várias abordagens que podem ser úteis para processar e analisar dados de texto. Dentre elas, este projeto explora algumas das abordagens listadas a abaixo, no intuito de tentar automatizar o processo de seleção para estes pesquisadores:</p>
 <ul>
 <li><p><strong>Raspagem de dados sobre oportunidades</strong>: A raspagem de dados sobre oportunidades é uma técnica que permite coletar dados de diferentes fontes na internet, como sites de agências de financiamento, bases de dados de pesquisa e plataformas de compartilhamento de informações. Essa técnica é muito útil para reunir informações sobre oportunidades de pesquisa que podem ser difíceis de encontrar ou acessar de outras maneiras.</p></li>
@@ -122,41 +120,13 @@ ul.task-list{list-style: none;}
 <li><p><strong>Recomendação de oportunidades</strong>: A terceira abordagem é a Recomendação de oportunidades, que envolve o uso de algoritmos de aprendizado de máquina para sugerir oportunidades de pesquisa aos pesquisadores com base em seus interesses e histórico de pesquisa. Isso pode ajudar os pesquisadores a encontrar novas oportunidades que podem ser relevantes para suas pesquisas.</p></li>
 <li><p><strong>Geração de resumo sobre as oportunidades</strong>: A quarta abordagem é a geração de resumo sobre as oportunidades, que envolve a criação de resumos curtos e concisos das oportunidades de pesquisa para facilitar a compreensão e a avaliação dessas oportunidades pelos pesquisadores. Isso pode ajudar os pesquisadores a identificar rapidamente as oportunidades que são mais relevantes para suas pesquisas e a economizar tempo na leitura de documentos detalhados.</p></li>
 </ul>
-<p>Este projeto proporciona várias linhas de pesquisa no intuito de ajudar pesquisadores brasileiros a encontrar oportunidades de pesquisa. Dentre as ferramentas utilizadas, o código está publicamente aberto no github e utiliza-se de ferramentas como gradio e plataformas como hugging-face para disponibilizar versões demos de algum dos resultados desta pesquisa.</p>
+<p>Este projeto proporciona várias linhas de pesquisa no intuito de ajudar pesquisadores brasileiros a encontrar oportunidades de pesquisa. Dentre as ferramentas utilizadas, o código está publicamente aberto e descrito no repositório do Github do projeto <a href="https://github.com/mcti-sefip/NLP-MCTI-PPF">mcti-sefip/NLP-MCTI-PPF</a> e utiliza-se da ferramentas como gradio e a plataforma hugging-face na organização chamada <a href="https://huggingface.co/unb-lamfo-nlp-mcti">NLP Project LAMFO - UnB - MCTI</a> para disponibilizar versões demos e descrições de modelos de algum dos resultados desta pesquisa na organização.</p>
 <hr>
 </section>
 <section id="raspagem-de-dados" class="level1">
 <h1>Raspagem de dados</h1>
-<p>A raspagem de dados [link] sobre oportunidades envolve a utilização de scripts ou programas para “raspar” informações de sites da web e salvar esses dados em um formato acessível, como um arquivo de dados ou uma base de dados. Isso permitiu aos pesquisadores do projeto coletar grandes quantidades de dados de forma automatizada e rápida, economizando tempo e esforço.</p>
+<p>A raspagem de dados envolve a utilização de scripts (ou programas) para “raspar” informações de sites da web sobre oportunidades de financiamento, este salva dados em um formato acessível como um arquivo contendo o banco de dados com informações sobre estas oportunidades. Isso permitiu aos pesquisadores do projeto coletar grandes quantidades de dados de forma automatizada e rápida, economizando tempo e esforço.</p>
 <p>Além disso, a raspagem de dados sobre oportunidades também pode ser combinada com técnicas de processamento de linguagem natural (NLP) para analisar os dados coletados e extrair informações relevantes, como palavras-chave, autores, instituições e tópicos de pesquisa.</p>
-<hr>
-</section>
-<section id="classificação-de-oportunidades" class="level1">
-<h1>Classificação de oportunidades</h1>
-<p>A classificação de oportunidades pode ser realizada de várias maneiras, como o uso de algoritmos de aprendizado de máquina para analisar os dados de texto e atribuir rótulos automaticamente, ou o uso de técnicas de processamento de linguagem natural (NLP) para extrair informações relevantes dos dados de texto e classificá-las manualmente.</p>
-<p>A classificação de oportunidades pode ser aplicada a vários tipos de dados, como propostas de financiamento, relatórios de pesquisa e outros documentos relacionados a oportunidades de pesquisa. Além disso, a classificação de oportunidades também pode ser combinada com outras técnicas de análise de dados, como a raspagem de dados e a recomendação de oportunidades, para fornecer uma visão mais ampla das oportunidades disponíveis e ajudar os pesquisadores a encontrar oportunidades relevantes para suas pesquisas.</p>
-<p>Existem várias tentativas de usar modelos de machine learning para realizar a classificação de oportunidades de pesquisa. Esses modelos são treinados com grandes conjuntos de dados de texto etiquetados manualmente, como propostas de financiamento, relatórios de pesquisa e outros documentos relacionados a oportunidades de pesquisa.</p>
-<p>Neste projeto, foi testado várias metodologias e arquiteturas de modelos diferentes descritas em [link], dentre elas o uma das aplicações utilizando o gradio está abaixo</p>
-<iframe src="https://unb-lamfo-nlp-mcti-nlp-w2v-cnn-multi.hf.space" frameborder="0" width="100%" height="450"></iframe>
-<hr>
-</section>
-<section id="síntese-de-texto-para-oportunidades" class="level1">
-<h1>Síntese de texto para oportunidades</h1>
-<p>A síntese de texto é o processo de criação de resumos curtos e concisos de um texto mais longo. Isso pode ser útil para ajudar os pesquisadores a entender rapidamente o conteúdo de um documento de pesquisa ou para criar resumos de oportunidades de pesquisa que possam ser facilmente compreendidos e avaliados pelos pesquisadores.</p>
-<p>Existem várias tentativas de usar modelos de machine learning para realizar a síntese de texto. Um exemplo é o uso de modelos de seqüência-para-seqüência, que são treinados para gerar resumos a partir de um texto de entrada. Esses modelos são treinados com grandes conjuntos de dados de texto etiquetados manualmente, como artigos científicos e relatórios de pesquisa, e são capazes de aprender a gerar resumos que capturam a essência do texto de entrada.</p>
-<p>Outra técnica comum é o uso de modelos de aprendizado não supervisionado, como agrupamento de dados ou modelos de tópico, para criar resumos a partir de um texto de entrada. Esses modelos podem ajudar a identificar padrões nos dados de texto e a selecionar os trechos mais relevantes do texto para incluir no resumo.</p>
-<p>Dentre os modelos pesquisados neste projeto, algum deles podem ser utilizados no app a seguir, no qual a descrição sobre estes pode ser encontrada em [link]</p>
-<iframe src="https://unb-lamfo-nlp-mcti-nlp-ats-mcti.hf.space" frameborder="0" width="100%" height="450"></iframe>
-<hr>
-</section>
-<section id="recomedação-de-oportunidades" class="level1">
-<h1>Recomedação de oportunidades</h1>
-<p>A recomendação de oportunidades é o processo de sugerir oportunidades de pesquisa aos pesquisadores com base em seus interesses e histórico de pesquisa. Isso pode ser útil para ajudar os pesquisadores a encontrar novas oportunidades que possam ser relevantes para suas pesquisas e para aumentar a eficiência do processo de busca de oportunidades.</p>
-<p>É possível utilizar modelos de aprendizado de máquina para realizar a recomendação de oportunidades de maneira mais automatizada. Por exemplo, modelos de agrupamento de dados ou modelos de tópico podem ser utilizados para agrupar oportunidades de acordo com tópicos similares e sugerir oportunidades aos pesquisadores com base em seus interesses e histórico de pesquisa.</p>
-<p>Abaixo temos uma demostração sobre a pesquisa de recomendação disponibilizada no hugging-face, no qual a descrição do modelo pode ser encontrada no model card [link].</p>
-
-<iframe src="https://unb-lamfo-nlp-mcti-nlp-mcti-lda-recommender.hf.space" frameborder="0" width="100%" height="450"></iframe>
-
 <hr>
 </section>
 <section id="revisão-sistemática-da-literatura" class="level1">
@@ -171,7 +141,34 @@ ul.task-list{list-style: none;}
 <li><p>Fornece um ponto de partida para a elaboração de hipóteses e questionamentos de pesquisa permitindo identificar o que pode ser útil para definir as hipóteses e os questionamentos de pesquisa do projeto.</p></li>
 </ol>
 <p>Em resumo, a revisão sistemática da literatura é uma etapa importante na elaboração de um projeto de pesquisa, pois ajuda a definir o contexto do projeto, identificar fontes de dados e métodos de pesquisa, evitar a replicação de pesquisas já realizadas e atender aos requisitos de agências de fomento e outras instituições.</p>
-<p>Neste projeto, foi realizado uma linha de pesquisa com o objetivo de disponibilizar uma ferramenta de pesquisa de artigos científicos baseada no semantic scholhar [link] e um modelo para classificação artigos relevantes para a área de pesquisa proposta pelos pesquisadores deste projeto. Esta tem como intuito ajudar a retornar artigos relevantes para cada linha de pesquisa proposta do projeto de forma a reduzir o tempo necessário para efetuar a revisão sistemática da literatura completa. Esta ferramenta esta disponibilizada em [link] e o modelo se baseia em um estudo publicado na coferencia WEBIST 2022 [link] no qual ganhou título de melhor paper na 18 edição.</p>
+<p>Neste projeto, foi realizado uma linha de pesquisa com o objetivo de disponibilizar uma ferramenta de pesquisa de artigos científicos baseada no semantic scholhar e um modelo para classificação artigos relevantes para a área de pesquisa proposta pelos pesquisadores deste projeto disponibilizada como jupyter notebook que pode ser acessado neste <a href="https://github.com/BecomeAllan/ML-SLRC/blob/main/Application/Classification_automation_SLR.ipynb">notebook</a>. Este tem como intuito ajudar a retornar artigos relevantes para cada linha de pesquisa proposta do projeto de forma a reduzir o tempo necessário para efetuar a revisão sistemática da literatura completa. O modelo se baseia em um <a href="https://www.scitepress.org/Link.aspx?doi=10.5220/0011526400003318">artigo publicado</a> para a conferencia <a href="https://webist.scitevents.org/?y=2022">WEBIST 2022</a> no qual ganhou título de <a href="https://webist.scitevents.org/PreviousAwards.aspx">“Best Paper Award”</a> na 18a edição.</p>
+<hr>
+</section>
+<section id="classificação-de-oportunidades" class="level1">
+<h1>Classificação de oportunidades</h1>
+<p>A classificação de oportunidades pode ser realizada de várias maneiras, como o uso de algoritmos de aprendizado de máquina para analisar os dados de texto e atribuir rótulos automaticamente, ou o uso de técnicas de processamento de linguagem natural (NLP) para extrair informações relevantes dos dados de texto e classificá-las manualmente.</p>
+<p>A classificação de oportunidades pode ser aplicada a vários tipos de dados, como propostas de financiamento, relatórios de pesquisa e outros documentos relacionados a oportunidades de pesquisa. Além disso, a classificação de oportunidades também pode ser combinada com outras técnicas de análise de dados, como a raspagem de dados e a recomendação de oportunidades, para fornecer uma visão mais ampla das oportunidades disponíveis e ajudar os pesquisadores a encontrar oportunidades relevantes para suas pesquisas.</p>
+<p>Neste projeto, várias tentativas de usar modelos de linguagem natural para realizar a classificação de oportunidades de pesquisa foram efetuadas. Esses modelos são treinados com grandes conjuntos de dados de texto etiquetados manualmente, como propostas de financiamento, relatórios de pesquisa e outros documentos relacionados a oportunidades de pesquisa. Os modelos e experimentos estão descritos como model card no repositório exposto pela plataforma Hugging face intitulada <a href="https://huggingface.co/unb-lamfo-nlp-mcti/NLP-Classification-MCTI">unb-lamfo-nlp-mcti/NLP-Classification-MCTI</a>. Para a classificação de oportunidades, foi feito um protótipo deste utilizando a ferramenta gradio como space na plataforma Hugging face com o nome de <a href="https://huggingface.co/spaces/unb-lamfo-nlp-mcti/NLP-W2V-CNN-Multi">unb-lamfo-nlp-mcti/NLP-W2V-CNN-Multi</a> ou como demonstrada abaixo.</p>
+<iframe src="https://unb-lamfo-nlp-mcti-nlp-w2v-cnn-multi.hf.space" frameborder="0" width="100%" height="450"></iframe>
+<hr>
+</section>
+<section id="síntese-de-texto-para-oportunidades" class="level1">
+<h1>Síntese de texto para oportunidades</h1>
+<p>A síntese de texto é o processo de criação de resumos curtos e concisos de um texto mais longo. Isso pode ser útil para ajudar os pesquisadores a entender rapidamente o conteúdo de um documento de pesquisa ou para criar resumos de oportunidades de pesquisa que possam ser facilmente compreendidos e avaliados pelos pesquisadores.</p>
+<p>Existem várias tentativas de usar modelos de aprendizado de máquina para realizar a síntese de texto. Um exemplo é o uso de modelos de seqüência-para-seqüência, que são treinados para gerar resumos a partir de um texto de entrada. Esses modelos são treinados com grandes conjuntos de dados de texto etiquetados manualmente, como artigos científicos e relatórios de pesquisa, e são capazes de aprender a gerar resumos que capturam a essência do texto de entrada.</p>
+<p>Outra técnica comum é o uso de modelos de aprendizado não supervisionado, como agrupamento de dados ou modelos de tópico, para criar resumos a partir de um texto de entrada. Esses modelos podem ajudar a identificar padrões nos dados de texto e a selecionar os trechos mais relevantes do texto para incluir no resumo.</p>
+<p>Os modelos pesquisados neste projeto sobre a síntese de texto para a sumarização das oportunidades de financiamento, está descritas como model card no repositório exposto pela plataforma Hugging face denotada como <a href="https://huggingface.co/unb-lamfo-nlp-mcti/NLP-ATS-MCTI">unb-lamfo-nlp-mcti/NLP-ATS-MCTI</a>, este também possui uma demo para sumarização de textos denotado como <a href="https://huggingface.co/spaces/unb-lamfo-nlp-mcti/NLP-ATS-MCTI">unb-lamfo-nlp-mcti/NLP-ATS-MCTI</a>, esta demo se pode ser testada abaixo.</p>
+<iframe src="https://unb-lamfo-nlp-mcti-nlp-ats-mcti.hf.space" frameborder="0" width="100%" height="450"></iframe>
+<hr>
+</section>
+<section id="recomedação-de-oportunidades" class="level1">
+<h1>Recomedação de oportunidades</h1>
+<p>A recomendação de oportunidades é o processo de sugerir oportunidades de pesquisa aos pesquisadores com base em seus interesses e histórico de pesquisa. Isso pode ser útil para ajudar os pesquisadores a encontrar novas oportunidades que possam ser relevantes para suas pesquisas e para aumentar a eficiência do processo de busca de oportunidades.</p>
+<p>É possível utilizar modelos de aprendizado de máquina para realizar a recomendação de oportunidades de maneira mais automatizada. Por exemplo, modelos de agrupamento de dados ou modelos de tópico podem ser utilizados para agrupar oportunidades de acordo com tópicos similares e sugerir oportunidades aos pesquisadores com base em seus interesses e histórico de pesquisa.</p>
+<p>Nesta parte do projeto, o modelo pesquisado é descrito como model card no hugging face como <a href="https://huggingface.co/unb-lamfo-nlp-mcti/NLP-Recommendation-MCTI">unb-lamfo-nlp-mcti/NLP-Recommendation-MCTI</a> e assim como sua demonstração da aplicação do modelo encontrada em <a href="https://huggingface.co/spaces/unb-lamfo-nlp-mcti/nlp-mcti-lda-recommender">unb-lamfo-nlp-mcti/nlp-mcti-lda-recommender</a> ou como verificada abaixo.</p>
+
+<iframe src="https://unb-lamfo-nlp-mcti-nlp-mcti-lda-recommender.hf.space" frameborder="0" width="100%" height="450"></iframe>
+
 <hr>
 
 
