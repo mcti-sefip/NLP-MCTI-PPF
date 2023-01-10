@@ -6,4 +6,4 @@ We provide a literature review about Automatic Text Summarization (ATS) systems.
 ## Preprint
 https://doi.org/10.48550/arxiv.2301.03403
 
-Cajueiro, Daniel O. and Nery, Arthur G. and Tavares, Igor and De Melo, Maísa K. and Reis, Silvia A. dos and Weigang, Li and Celestino, Victor R. R. (2023). A comprehensive review of automatic text summarization techniques: method, data, evaluation and coding. arXiv preprint arxiv:2301.03403
+Cajueiro, Daniel O., Nery, Arthur G., Tavares, Igor, De Melo, Maísa K., Reis, Silvia A. dos, Weigang, Li and Celestino, Victor R. R. (2023). A comprehensive review of automatic text summarization techniques: method, data, evaluation and coding. arXiv preprint arxiv:2301.03403
