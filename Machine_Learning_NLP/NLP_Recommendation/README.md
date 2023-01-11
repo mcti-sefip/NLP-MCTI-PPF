@@ -13,7 +13,7 @@ Algoritmo que prevê uma classificação aleatória com base na distribuição d
 Algoritmo que prevê a estimativa de baseline para determinado usuário e item.
 
 ### knns.KNNBasic: 
-Algoritmo básico de collaborative-filtering
+Algoritmo básico de collaborative-filtering.
 
 ### knns.KNNWithMeans: 
 Um algoritmo básico de collaborative-filtering, levando em conta as avaliações médias de cada usuário.
@@ -22,7 +22,7 @@ Um algoritmo básico de collaborative-filtering, levando em conta as avaliaçõe
 Um algoritmo básico de collaborative-filtering, levando em consideração a normalização do z-score de cada usuário.
 
 ### knns.KNNBaseline: 
-Um algoritmo básico de collaborative-filtering que leva em consideração uma classificação de baseline
+Um algoritmo básico de collaborative-filtering que leva em consideração uma classificação de baseline.
 
 ### matrix_factorization.SVD: 
 O famoso algoritmo SVD, popularizado por Simon Funk durante o Prêmio Netflix. 
