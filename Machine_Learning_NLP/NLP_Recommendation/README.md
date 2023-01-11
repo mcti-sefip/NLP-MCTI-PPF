@@ -1,6 +1,6 @@
 # Meta 12
 
-# Descrição do modelo
+## Descrição do modelo
 
 Nesta meta do projeto, visamos criar, a partir de um modelo LDA a realização de recomendações ao usuário, usando a biblioteca surprise.
 
@@ -36,3 +36,40 @@ Posteriormente, utilizamos um banco de dados de scrappings de perfis do LinkedIn
 Todos os modelos foram usados e avaliados. Quando confrontados, diferentes métodos apresentaram diferentes estimativas de erro.
 
 A biblioteca surprise fornece 4 métodos diferentes para avaliar a precisão da previsão de classificações. São eles: rmse, mse, mae e fcp.
+
+# Resultados
+
+# LDA-GENERATED DATASET
+ranking
+
+|                 |  RMSE     | MSE       | MAE       |   FCP     |
+|-----------------|-----------|-----------|-----------|-----------|
+| NormalPredictor |  1.820737 |	3.315084  | 1.475522  |	0.514134  |
+| BaselineOnly    |  1.072843 | 1.150992  | 0.890233  | 0.556560  |
+| KNNBasic        |  1.232248 |	1.518436  |	0.936799  | 0.648604  |
+| KNNWithMeans    |  1.124166 |	1.263750  |	0.808329  |	0.597148  |
+| KNNWithZScore   |  1.056550 |	1.116299  |	0.750004  |	0.669651  |
+| KNNBaseline     |  1.134660 |	1.287454  |	0.825161  |	0.614270  |
+| SVD             |  0.977468 |	0.955444  |	0.757485  |	0.723829  |
+| SVDpp           |  0.843065 |	0.710758  |	0.670516  |	0.671737  |
+| NMF             |  1.122684 |	1.260420  |	0.722101  |	0.688728  |
+| SlopeOne        |  1.073552 |	1.152514  |	0.747142  |	0.651937  |
+| CoClustering    |  1.293383 |	1.672838  |	1.007951  |	0.494174  |
+
+# BENCHMARK DATASET
+uniform
+
+|                 |  RMSE     | MSE       | MAE       |   FCP     |
+|-----------------|-----------|-----------|-----------|-----------|
+| NormalPredictor |  1.508925 |	2.276854  | 1.226758  |	0.503723  |
+| BaselineOnly    |  1.153331 | 1.330172  | 1.022732  | 0.506818  |
+| KNNBasic        |  1.205058 |	1.452165  |	1.026591  | 0.501168  |
+| KNNWithMeans    |  1.202024 |	1.444862  |	1.028149  |	0.503527  |
+| KNNWithZScore   |  1.216041 |1.478756	  | 1.041070  |	0.501582  |
+| KNNBaseline     |  1.225609 |	1.502117  | 1.048107  |	0.498198  |
+| SVD             |  1.176273 |	1.383619  |	1.013285  |	0.502067  |
+| SVDpp           |  1.192619 |	1.422340  |	1.018717  |	0.500909  |
+| NMF             |  1.338216 |	1.790821  |	1.120604  |	0.492944  |
+| SlopeOne        |  1.224219 |	1.498713  |	1.047170  |	0.494298  |
+| CoClustering    |  1.223020 |	1.495778  |	1.033699  |	0.518509  |
+
