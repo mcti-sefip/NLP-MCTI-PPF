@@ -38,7 +38,7 @@ Recomenda fontes de informação com base em informações demográficas altamen
  
 ## Content-based filtering
 
-analisa o conteúdo de fontes de informação para criar perfil dos interesses do usuário. Em métodos de content-based que fazem recomendações analisando a descrição de itens que foram avaliados por usuários e a descrição de itens para ser recomendados (Pazzani, 1999). Todas as abordagens de content-based  representam documentos pelas palavras “importantes” nos documentos.
+Analisa o conteúdo de fontes de informação para criar perfil dos interesses do usuário. Em métodos de content-based que fazem recomendações analisando a descrição de itens que foram avaliados por usuários e a descrição de itens para ser recomendados (Pazzani, 1999). Todas as abordagens de content-based  representam documentos pelas palavras “importantes” nos documentos.
 
 ## Knowledge-based filtering
 	
