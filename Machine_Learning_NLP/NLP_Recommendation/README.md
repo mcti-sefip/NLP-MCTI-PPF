@@ -48,7 +48,7 @@ Todos os modelos foram usados e avaliados. Quando confrontados, diferentes méto
 
 A biblioteca surprise fornece 4 métodos diferentes para avaliar a precisão da previsão de classificações. São eles: rmse, mse, mae e fcp.
 
-# Resultados
+# Benchmarks
 
 ## LDA-GENERATED DATASET
 ranking
