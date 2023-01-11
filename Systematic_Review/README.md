@@ -17,10 +17,10 @@ The steps of a SLR are meant to structure a work plan which is done in a systema
 
 ### Phase 2 (Produce the review)
 
-4. Gather the database (Base de dados contendo exemplos resultantes da estratégia de busca com palavras chaves em algum mecanismo de busca)
-5. Select the primary studies (Obs.: Nesta metodologia, os critérios de inclusão/exclusão definidos, devem ser feitos utilizando o titulo e o resumo de cada exemplo.)
-6. Evaluate the quality of the studies (Depois de realizar a seleção dos estudos primários, aplica-se os critérios de avaliação de qualidade para os exemplos incluídos para a SLR.)
-7. Synthetize the data bank with high-quality studies (Criar banco de dados com os exemplos de qualidade que entraram para a SLR.)
+4. Gather the database (database containing examples from the search strategy with keywords in a search mechanism)
+5. Select the primary studies (In this methodology - with the inclsuion/exclusion criteria having been defined - it must be done using the title and summary of each example.)
+6. Evaluate the quality of the studies (with the primary studies having been selected, the quality evaluation criteria must be applied to the examples included in the SLR.)
+7. Synthetize the data bank with high-quality studies (Create a data bank with the high quality examples which were selected for the SLR.)
 
 ### Phase 3 (Review report)
 
