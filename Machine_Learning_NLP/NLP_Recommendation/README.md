@@ -39,6 +39,7 @@ Um algoritmo de collaborative-filtering simples, mas preciso.
 ### co_clustering.CoClustering: 
 Um algoritmo de collaborative-filtering baseado em co-clustering. É possível passar um dataframe personalizado como argumento para esta classe. O dataframe em questão precisa ter 3 colunas com o seguinte nome: ['userID', 'itemID', 'rating'].
 
+## Limitações e vieses
 
 É importante ressaltar inicialmente que neste modelo deparamo-nos com alguns obstáculos que havíamos ultrapassado, mas alguns deles, pela natureza do projeto, não puderam ser totalmente resolvidos. Bancos de dados contendo perfis de possíveis usuários do protótipo planejado não estão disponíveis. Por esse motivo, foi necessário realizar simulações de forma a representar os interesses desses usuários, para que o sistema de recomendação pudesse ser modelado. Foi realizada uma simulação de clusters de interesses latentes, com base em tópicos presentes nos textos que descrevem os produtos financeiros. Devido ao fato de que o conjunto de dados foi construído por nós mesmos, ainda não houve interação entre um usuário e o conjunto de dados, portanto, não temos classificações realistas, tornando os resultados menos críveis.
 
