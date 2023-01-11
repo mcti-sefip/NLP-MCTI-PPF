@@ -3,7 +3,7 @@
 
 ## What is Systematic Literature Review
 
-The systematic literature review's (SLR) goal is to gather similar materials (papers, books, etc.) in order to answer a given scientific question ot to realize an overview of a scientific base in the literature regarding an issue.
+The systematic literature review's (SLR) goal is to gather similar materials (papers, books, etc.) in order to answer a given scientific question or to realize an overview of a scientific base in the literature regarding an issue.
 
 ## What are the steps to produce a SLR
 
