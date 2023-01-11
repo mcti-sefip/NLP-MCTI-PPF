@@ -6,7 +6,8 @@ Nesta meta do projeto, visamos criar, a partir de um modelo LDA a realização d
 
 A biblioteca surprise fornece 11 modelos de classificadores que tentam prever a classificação dos dados de treinamento com base em várias técnicas diferentes de filtragem colaborativa. Os modelos fornecidos com uma breve explicação são mencionados abaixo.
 
-### random_pred.NormalPredictor: ### Algoritmo que prevê uma classificação aleatória com base na distribuição do conjunto de treinamento, que é considerado normal. 
+### random_pred.NormalPredictor: 
+Algoritmo que prevê uma classificação aleatória com base na distribuição do conjunto de treinamento, que é considerado normal. 
 
 ### baseline_only.BaselineOnly: Algoritmo que prevê a estimativa de baseline para determinado usuário e item.
 
