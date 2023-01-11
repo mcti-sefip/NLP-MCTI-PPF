@@ -1,3 +1,7 @@
+# Meta 12
+
+# Descrição do modelo
+
 Nesta meta do projeto, visamos criar, a partir de um modelo LDA a realização de recomendações ao usuário, usando a biblioteca surprise.
 
 A biblioteca surprise fornece 11 modelos de classificadores que tentam prever a classificação dos dados de treinamento com base em várias técnicas diferentes de filtragem colaborativa. Os modelos fornecidos com uma breve explicação são mencionados abaixo.
