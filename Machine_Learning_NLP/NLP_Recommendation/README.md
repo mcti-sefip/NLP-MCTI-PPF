@@ -39,7 +39,7 @@ A biblioteca surprise fornece 4 métodos diferentes para avaliar a precisão da 
 
 # Resultados
 
-# LDA-GENERATED DATASET
+## LDA-GENERATED DATASET
 ranking
 
 |                 |  RMSE     | MSE       | MAE       |   FCP     |
@@ -56,7 +56,7 @@ ranking
 | SlopeOne        |  1.073552 |	1.152514  |	0.747142  |	0.651937  |
 | CoClustering    |  1.293383 |	1.672838  |	1.007951  |	0.494174  |
 
-# BENCHMARK DATASET
+## BENCHMARK DATASET
 uniform
 
 |                 |  RMSE     | MSE       | MAE       |   FCP     |
