@@ -24,7 +24,7 @@ O intuito desta Revisão foi de aumentar a inclusão na revisão de artigos rece
 
 ●        Classificação: Relevância e Número de Citações.
 
-# RESULTADOS DA REVISÃO DE LITERATURA
+# Resultados da revisão de literatura
 
 Dividimos e identificamos cinco abordagens diferentes usadas para fazer recomendações, conforme Pazzani (1999). Esta divisão inclui demographic filtering, collaborative-filtering, content-based, knowledge-based, e hybrid. 
 
