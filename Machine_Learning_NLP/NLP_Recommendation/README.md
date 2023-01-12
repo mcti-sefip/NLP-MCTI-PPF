@@ -6,19 +6,19 @@ Nesta meta do projeto, visamos criar, a partir de um modelo LDA a realização d
 
 A biblioteca surprise fornece 11 modelos de classificadores que tentam prever a classificação dos dados de treinamento com base em várias técnicas diferentes de filtragem colaborativa. Os modelos fornecidos com uma breve explicação são mencionados abaixo.
 
-### random_pred.NormalPredictor: 
+#### random_pred.NormalPredictor: 
 Algoritmo que prevê uma classificação aleatória com base na distribuição do conjunto de treinamento, que é considerado normal. 
 
-### baseline_only.BaselineOnly: 
+#### baseline_only.BaselineOnly: 
 Algoritmo que prevê a estimativa de baseline para determinado usuário e item.
 
-### knns.KNNBasic: 
+#### knns.KNNBasic: 
 Algoritmo básico de collaborative-filtering.
 
-### knns.KNNWithMeans: 
+#### knns.KNNWithMeans: 
 Um algoritmo básico de collaborative-filtering, levando em conta as avaliações médias de cada usuário.
 
-### knns.KNNWithZScore: 
+#### knns.KNNWithZScore: 
 Um algoritmo básico de collaborative-filtering, levando em consideração a normalização do z-score de cada usuário.
 
 ### knns.KNNBaseline: 
@@ -30,13 +30,13 @@ O famoso algoritmo SVD, popularizado por Simon Funk durante o Prêmio Netflix.
 ### matrix_factorization.SVDpp: 
 O algoritmo SVD++, uma extensão do SVD que leva em consideração classificações implícitas.
 
-### matrix_factorization.NMF: 
+#### matrix_factorization.NMF: 
 Um algoritmo de collaborative-filtering baseado na fatoração de matriz não negativa. 
 
-### slope_one.SlopeOne: 
+#### slope_one.SlopeOne: 
 Um algoritmo de collaborative-filtering simples, mas preciso.
 
-### co_clustering.CoClustering: 
+#### co_clustering.CoClustering: 
 Um algoritmo de collaborative-filtering baseado em co-clustering. É possível passar um dataframe personalizado como argumento para esta classe. O dataframe em questão precisa ter 3 colunas com o seguinte nome: ['userID', 'itemID', 'rating'].
 
 ## Limitações e vieses
