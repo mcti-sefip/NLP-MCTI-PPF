@@ -1,5 +1,6 @@
 ---
 title: ""
+bibliography: references.bib
 execute: 
   enabled: false
 format:
@@ -32,4 +33,7 @@ format:
 {{< include sections/_recommedation.md >}}
 
 
+# Referências
 
+::: {#refs}
+:::

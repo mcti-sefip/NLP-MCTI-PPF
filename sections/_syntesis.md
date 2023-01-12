@@ -6,7 +6,7 @@ Existem várias tentativas de usar modelos de aprendizado de máquina para reali
 
 Outra técnica comum é o uso de modelos de aprendizado não supervisionado, como agrupamento de dados ou modelos de tópico, para criar resumos a partir de um texto de entrada. Esses modelos podem ajudar a identificar padrões nos dados de texto e a selecionar os trechos mais relevantes do texto para incluir no resumo.
 
-Os modelos pesquisados neste projeto sobre a síntese de texto para a sumarização das oportunidades de financiamento, está descritas como model card no repositório exposto pela plataforma Hugging face denotada como [unb-lamfo-nlp-mcti/NLP-ATS-MCTI](https://huggingface.co/unb-lamfo-nlp-mcti/NLP-ATS-MCTI), este também possui uma demo para sumarização de textos denotado como [unb-lamfo-nlp-mcti/NLP-ATS-MCTI](https://huggingface.co/spaces/unb-lamfo-nlp-mcti/NLP-ATS-MCTI), esta demo se pode ser testada abaixo.
+Os modelos pesquisados para a síntese de texto para a sumarização das oportunidades de financiamento se baseiam na revisão sistemática de [@synthesisSLR]. Este também está descrito como model card no repositório exposto pela plataforma Hugging face denotada como [unb-lamfo-nlp-mcti/NLP-ATS-MCTI](https://huggingface.co/unb-lamfo-nlp-mcti/NLP-ATS-MCTI), a demo para estes modelos para sumarização de textos pode ser encontrado como [unb-lamfo-nlp-mcti/NLP-ATS-MCTI](https://huggingface.co/spaces/unb-lamfo-nlp-mcti/NLP-ATS-MCTI) ou pode ser testada abaixo. 
 
 
 ```{=html}
