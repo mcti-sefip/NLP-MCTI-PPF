@@ -7,10 +7,10 @@ Nesta meta do projeto, visamos criar, a partir de um modelo LDA a realização d
 A biblioteca surprise fornece 11 modelos de classificadores que tentam prever a classificação dos dados de treinamento com base em várias técnicas diferentes de filtragem colaborativa. Os modelos fornecidos com uma breve explicação são mencionados abaixo.
 
 #### random_pred.NormalPredictor: 
-Algoritmo que prevê uma classificação aleatória com base na distribuição do conjunto de treinamento, que é considerado normal. 
+Algoritmo que prevê uma classificação aleatória com base na distribuição do conjunto de treinamento, que é considerada normal. 
 
 #### baseline_only.BaselineOnly: 
-Algoritmo que prevê a estimativa de baseline para determinado usuário e item.
+Algoritmo que prevê a estimativa de *baseline* para determinado usuário e item.
 
 #### knns.KNNBasic: 
 Algoritmo básico de collaborative-filtering.
@@ -19,7 +19,7 @@ Algoritmo básico de collaborative-filtering.
 Um algoritmo básico de collaborative-filtering, levando em conta as avaliações médias de cada usuário.
 
 #### knns.KNNWithZScore: 
-Um algoritmo básico de collaborative-filtering, levando em consideração a normalização do z-score de cada usuário.
+Um algoritmo básico de collaborative-filtering, levando em consideração a normalização por z-score de cada usuário.
 
 ### knns.KNNBaseline: 
 Um algoritmo básico de collaborative-filtering que leva em consideração uma classificação de baseline.
@@ -41,9 +41,9 @@ Um algoritmo de collaborative-filtering baseado em co-clustering. É possível p
 
 ## Limitações e vieses
 
-É importante ressaltar inicialmente que neste modelo deparamo-nos com alguns obstáculos que havíamos ultrapassado, mas alguns deles, pela natureza do projeto, não puderam ser totalmente resolvidos. Bancos de dados contendo perfis de possíveis usuários do protótipo planejado não estão disponíveis. Por esse motivo, foi necessário realizar simulações de forma a representar os interesses desses usuários, para que o sistema de recomendação pudesse ser modelado. Foi realizada uma simulação de clusters de interesses latentes, com base em tópicos presentes nos textos que descrevem os produtos financeiros. Devido ao fato de que o conjunto de dados foi construído por nós mesmos, ainda não houve interação entre um usuário e o conjunto de dados, portanto, não temos classificações realistas, tornando os resultados menos críveis.
+É importante ressaltar inicialmente que neste modelo deparamo-nos com alguns obstáculos que havíamos ultrapassado, mas alguns deles, pela natureza do projeto, não puderam ser totalmente resolvidos. Bancos de dados contendo perfis de possíveis usuários do protótipo planejado não estão disponíveis. Por esse motivo, foi necessário realizar simulações de forma a representar os interesses desses usuários, para que o sistema de recomendação pudesse ser modelado. Foi realizada uma simulação de tópicos de interesses latentes, com base em tópicos presentes nos textos que descrevem os produtos financeiros. Devido ao fato de que o conjunto de dados foi construído neste projeto, ainda não houve interação entre um usuário e o conjunto de dados, portanto, não temos classificações realistas, tornando os resultados menos verossímeis.
 
-Posteriormente, utilizamos um banco de dados de scrappings de perfis do LinkedIn. O problema é que os perfis que o linkedin mostra são tendenciosos, então os perfis que aparecem foram geograficamente fechados ou relacionados à organização e e-mail dos usuários.
+Posteriormente, foi utilizado um banco de dados de scrappings de perfis do LinkedIn. O modelo de Latent Dirichlet Allocation foi treinado em cima deste banco para encontrar os principais tópicos de interesse em áreas de pesquisa, e poder avaliar a proximidade dos produtos financeiros à cada um destes tópicos latentes. O problema é que os perfis que o linkedin mostra são tendenciosos, então os perfis que aparecem foram geograficamente fechados ou relacionados à organização e e-mail dos usuários.
 
 Todos os modelos foram usados e avaliados. Quando confrontados, diferentes métodos apresentaram diferentes estimativas de erro.
 
