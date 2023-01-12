@@ -15,6 +15,25 @@ span.underline{text-decoration: underline;}
 div.column{display: inline-block; vertical-align: top; width: 50%;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -97,6 +116,7 @@ ul.task-list{list-style: none;}
   <li><a href="#classificação-de-oportunidades" id="toc-classificação-de-oportunidades" class="nav-link" data-scroll-target="#classificação-de-oportunidades">Classificação de oportunidades</a></li>
   <li><a href="#síntese-de-texto-para-oportunidades" id="toc-síntese-de-texto-para-oportunidades" class="nav-link" data-scroll-target="#síntese-de-texto-para-oportunidades">Síntese de texto para oportunidades</a></li>
   <li><a href="#recomedação-de-oportunidades" id="toc-recomedação-de-oportunidades" class="nav-link" data-scroll-target="#recomedação-de-oportunidades">Recomedação de oportunidades</a></li>
+  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências">Referências</a></li>
   </ul>
 </nav>
     </div>
@@ -141,14 +161,14 @@ ul.task-list{list-style: none;}
 <li><p>Fornece um ponto de partida para a elaboração de hipóteses e questionamentos de pesquisa permitindo identificar o que pode ser útil para definir as hipóteses e os questionamentos de pesquisa do projeto.</p></li>
 </ol>
 <p>Em resumo, a revisão sistemática da literatura é uma etapa importante na elaboração de um projeto de pesquisa, pois ajuda a definir o contexto do projeto, identificar fontes de dados e métodos de pesquisa, evitar a replicação de pesquisas já realizadas e atender aos requisitos de agências de fomento e outras instituições.</p>
-<p>Neste projeto, foi realizado uma linha de pesquisa com o objetivo de disponibilizar uma ferramenta de pesquisa de artigos científicos baseada no semantic scholhar e um modelo para classificação artigos relevantes para a área de pesquisa proposta pelos pesquisadores deste projeto disponibilizada como jupyter notebook que pode ser acessado neste <a href="https://github.com/BecomeAllan/ML-SLRC/blob/main/Application/Classification_automation_SLR.ipynb">notebook</a>. Este tem como intuito ajudar a retornar artigos relevantes para cada linha de pesquisa proposta do projeto de forma a reduzir o tempo necessário para efetuar a revisão sistemática da literatura completa. O modelo se baseia em um <a href="https://www.scitepress.org/Link.aspx?doi=10.5220/0011526400003318">artigo publicado</a> para a conferencia <a href="https://webist.scitevents.org/?y=2022">WEBIST 2022</a> no qual ganhou título de <a href="https://webist.scitevents.org/PreviousAwards.aspx">“Best Paper Award”</a> na 18a edição.</p>
+<p>Neste projeto, foi realizado uma linha de pesquisa com o objetivo de disponibilizar uma ferramenta de pesquisa de artigos científicos baseada no <a href="https://www.semanticscholar.org/">semantic scholhar</a> e um modelo para classificação artigos relevantes para a área de pesquisa proposta pelos pesquisadores deste projeto disponibilizada como jupyter notebook que pode ser acessado neste <a href="https://github.com/BecomeAllan/ML-SLRC/blob/main/Application/Classification_automation_SLR.ipynb">notebook</a>. Este tem como intuito ajudar a retornar artigos relevantes para cada linha de pesquisa proposta do projeto de forma a reduzir o tempo necessário para efetuar a revisão sistemática da literatura completa. O modelo se baseia no artigo publicado de <span class="citation" data-cites="webist22SLR">(<a href="#ref-webist22SLR" role="doc-biblioref">Kely de Melo. et al. 2022</a>)</span> para a conferencia WEBIST 2022 no qual ganhou título de <a href="https://webist.scitevents.org/PreviousAwards.aspx">“Best Paper Award”</a> na 18a edição.</p>
 <hr>
 </section>
 <section id="classificação-de-oportunidades" class="level1">
 <h1>Classificação de oportunidades</h1>
 <p>A classificação de oportunidades pode ser realizada de várias maneiras, como o uso de algoritmos de aprendizado de máquina para analisar os dados de texto e atribuir rótulos automaticamente, ou o uso de técnicas de processamento de linguagem natural (NLP) para extrair informações relevantes dos dados de texto e classificá-las manualmente.</p>
 <p>A classificação de oportunidades pode ser aplicada a vários tipos de dados, como propostas de financiamento, relatórios de pesquisa e outros documentos relacionados a oportunidades de pesquisa. Além disso, a classificação de oportunidades também pode ser combinada com outras técnicas de análise de dados, como a raspagem de dados e a recomendação de oportunidades, para fornecer uma visão mais ampla das oportunidades disponíveis e ajudar os pesquisadores a encontrar oportunidades relevantes para suas pesquisas.</p>
-<p>Neste projeto, várias tentativas de usar modelos de linguagem natural para realizar a classificação de oportunidades de pesquisa foram efetuadas. Esses modelos são treinados com grandes conjuntos de dados de texto etiquetados manualmente, como propostas de financiamento, relatórios de pesquisa e outros documentos relacionados a oportunidades de pesquisa. Os modelos e experimentos estão descritos como model card no repositório exposto pela plataforma Hugging face intitulada <a href="https://huggingface.co/unb-lamfo-nlp-mcti/NLP-Classification-MCTI">unb-lamfo-nlp-mcti/NLP-Classification-MCTI</a>. Para a classificação de oportunidades, foi feito um protótipo deste utilizando a ferramenta gradio como space na plataforma Hugging face com o nome de <a href="https://huggingface.co/spaces/unb-lamfo-nlp-mcti/NLP-W2V-CNN-Multi">unb-lamfo-nlp-mcti/NLP-W2V-CNN-Multi</a> ou como demonstrada abaixo.</p>
+<p>Neste projeto, várias tentativas de usar modelos de linguagem natural para realizar a classificação de oportunidades de pesquisa foram efetuadas e disponibilizadas como artigo publicado no WEBIST 2022 <span class="citation" data-cites="webist22C">(<a href="#ref-webist22C" role="doc-biblioref">Rocha. et al. 2022</a>)</span>. Esses modelos são treinados com grandes conjuntos de dados de texto etiquetados manualmente, como propostas de financiamento, relatórios de pesquisa e outros documentos relacionados a oportunidades de pesquisa. Os modelos e experimentos estão descritos com mais detalhes como model card no repositório exposto pela plataforma Hugging face intitulada <a href="https://huggingface.co/unb-lamfo-nlp-mcti/NLP-Classification-MCTI">unb-lamfo-nlp-mcti/NLP-Classification-MCTI</a>. Para a classificação de oportunidades, foi feito um protótipo deste utilizando a ferramenta gradio como space na plataforma Hugging face com o nome de <a href="https://huggingface.co/spaces/unb-lamfo-nlp-mcti/NLP-W2V-CNN-Multi">unb-lamfo-nlp-mcti/NLP-W2V-CNN-Multi</a> ou como demonstrada abaixo.</p>
 <iframe src="https://unb-lamfo-nlp-mcti-nlp-w2v-cnn-multi.hf.space" frameborder="0" width="100%" height="450"></iframe>
 <hr>
 </section>
@@ -157,7 +177,7 @@ ul.task-list{list-style: none;}
 <p>A síntese de texto é o processo de criação de resumos curtos e concisos de um texto mais longo. Isso pode ser útil para ajudar os pesquisadores a entender rapidamente o conteúdo de um documento de pesquisa ou para criar resumos de oportunidades de pesquisa que possam ser facilmente compreendidos e avaliados pelos pesquisadores.</p>
 <p>Existem várias tentativas de usar modelos de aprendizado de máquina para realizar a síntese de texto. Um exemplo é o uso de modelos de seqüência-para-seqüência, que são treinados para gerar resumos a partir de um texto de entrada. Esses modelos são treinados com grandes conjuntos de dados de texto etiquetados manualmente, como artigos científicos e relatórios de pesquisa, e são capazes de aprender a gerar resumos que capturam a essência do texto de entrada.</p>
 <p>Outra técnica comum é o uso de modelos de aprendizado não supervisionado, como agrupamento de dados ou modelos de tópico, para criar resumos a partir de um texto de entrada. Esses modelos podem ajudar a identificar padrões nos dados de texto e a selecionar os trechos mais relevantes do texto para incluir no resumo.</p>
-<p>Os modelos pesquisados neste projeto sobre a síntese de texto para a sumarização das oportunidades de financiamento, está descritas como model card no repositório exposto pela plataforma Hugging face denotada como <a href="https://huggingface.co/unb-lamfo-nlp-mcti/NLP-ATS-MCTI">unb-lamfo-nlp-mcti/NLP-ATS-MCTI</a>, este também possui uma demo para sumarização de textos denotado como <a href="https://huggingface.co/spaces/unb-lamfo-nlp-mcti/NLP-ATS-MCTI">unb-lamfo-nlp-mcti/NLP-ATS-MCTI</a>, esta demo se pode ser testada abaixo.</p>
+<p>Os modelos pesquisados para a síntese de texto para a sumarização das oportunidades de financiamento se baseiam na revisão sistemática de <span class="citation" data-cites="synthesisSLR">(<a href="#ref-synthesisSLR" role="doc-biblioref">Cajueiro et al. 2023</a>)</span>. Este também está descrito como model card no repositório exposto pela plataforma Hugging face denotada como <a href="https://huggingface.co/unb-lamfo-nlp-mcti/NLP-ATS-MCTI">unb-lamfo-nlp-mcti/NLP-ATS-MCTI</a>, a demo para estes modelos para sumarização de textos pode ser encontrado como <a href="https://huggingface.co/spaces/unb-lamfo-nlp-mcti/NLP-ATS-MCTI">unb-lamfo-nlp-mcti/NLP-ATS-MCTI</a> ou pode ser testada abaixo.</p>
 <iframe src="https://unb-lamfo-nlp-mcti-nlp-ats-mcti.hf.space" frameborder="0" width="100%" height="450"></iframe>
 <hr>
 </section>
@@ -165,11 +185,28 @@ ul.task-list{list-style: none;}
 <h1>Recomedação de oportunidades</h1>
 <p>A recomendação de oportunidades é o processo de sugerir oportunidades de pesquisa aos pesquisadores com base em seus interesses e histórico de pesquisa. Isso pode ser útil para ajudar os pesquisadores a encontrar novas oportunidades que possam ser relevantes para suas pesquisas e para aumentar a eficiência do processo de busca de oportunidades.</p>
 <p>É possível utilizar modelos de aprendizado de máquina para realizar a recomendação de oportunidades de maneira mais automatizada. Por exemplo, modelos de agrupamento de dados ou modelos de tópico podem ser utilizados para agrupar oportunidades de acordo com tópicos similares e sugerir oportunidades aos pesquisadores com base em seus interesses e histórico de pesquisa.</p>
-<p>Nesta parte do projeto, o modelo pesquisado é descrito como model card no hugging face como <a href="https://huggingface.co/unb-lamfo-nlp-mcti/NLP-Recommendation-MCTI">unb-lamfo-nlp-mcti/NLP-Recommendation-MCTI</a> e assim como sua demonstração da aplicação do modelo encontrada em <a href="https://huggingface.co/spaces/unb-lamfo-nlp-mcti/nlp-mcti-lda-recommender">unb-lamfo-nlp-mcti/nlp-mcti-lda-recommender</a> ou como verificada abaixo.</p>
+<p>Nesta parte do projeto, o modelo pesquisado é baseado no estudo de <span class="citation" data-cites="recommend22">(<a href="#ref-recommend22" role="doc-biblioref">Moraes Souza. et al., n.d.</a>)</span> e descrito com mais detalhes no model card do hugging face com o título de <a href="https://huggingface.co/unb-lamfo-nlp-mcti/NLP-Recommendation-MCTI">unb-lamfo-nlp-mcti/NLP-Recommendation-MCTI</a>. A demonstração da aplicação do modelo encontra-se em <a href="https://huggingface.co/spaces/unb-lamfo-nlp-mcti/nlp-mcti-lda-recommender">unb-lamfo-nlp-mcti/nlp-mcti-lda-recommender</a> ou pode ser verificada abaixo.</p>
 
 <iframe src="https://unb-lamfo-nlp-mcti-nlp-mcti-lda-recommender.hf.space" frameborder="0" width="100%" height="450"></iframe>
 
 <hr>
+</section>
+<section id="referências" class="level1">
+<h1>Referências</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-synthesisSLR" class="csl-entry" role="doc-biblioentry">
+Cajueiro, Daniel O., Arthur G. Nery, Igor Tavares, Maísa K. De Melo, Silvia A. dos Reis, Li Weigang, and Victor R. R. Celestino. 2023. <span>“A Comprehensive Review of Automatic Text Summarization Techniques: Method, Data, Evaluation and Coding.”</span> arXiv. <a href="https://doi.org/10.48550/ARXIV.2301.03403">https://doi.org/10.48550/ARXIV.2301.03403</a>.
+</div>
+<div id="ref-webist22SLR" class="csl-entry" role="doc-biblioentry">
+Kely de Melo., Maísa, Allan Victor Almeida Faria., Li Weigang., Arthur Gomes Nery., Flávio Augusto R. de Oliveira., Ian Teixeira Barreiro., and Victor Rafael Rezende Celestino. 2022. <span>“Few-Shot Approach for Systematic Literature Review Classifications.”</span> INSTICC; SciTePress. <a href="https://doi.org/10.5220/0011526400003318">https://doi.org/10.5220/0011526400003318</a>.
+</div>
+<div id="ref-recommend22" class="csl-entry" role="doc-biblioentry">
+Moraes Souza., João Gabriel de, Daniel Oliveira Cajueiro., Johnathan de O. Milagres., Vincius de Oliveira Watanabe., Vtor Bandeira Borges., and Victor Rafael Celestino. n.d. <span>“A Comprehensive Review of Recommendation Systems: Method, Data, Evaluation and Coding.”</span>
+</div>
+<div id="ref-webist22C" class="csl-entry" role="doc-biblioentry">
+Rocha., Carlos Alberto Alvares, Marcos Vinícius Pinheiro Dib., Li Weigang., Andrea Ferreira Portela Nunes., Allan Victor Almeida Faria., Daniel Oliveira Cajueiro., Maísa Kely de Melo., and Victor Rafael Rezende Celestino. 2022. <span>“Using Transfer Learning to Classify Long Unstructured Texts with Small Amounts of Labeled Data.”</span> INSTICC; SciTePress. <a href="https://doi.org/10.5220/0011527700003318">https://doi.org/10.5220/0011527700003318</a>.
+</div>
+</div>
 
 
 </section>
