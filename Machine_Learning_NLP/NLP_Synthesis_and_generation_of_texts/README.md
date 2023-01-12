@@ -1,12 +1,13 @@
-# Automatic Text Summarization and Summary Evaluation Experiments
+# Experimentos de Sumarização Automática de Texto e Avaliação de Resumos
 
-## Objective
-This repository presents Python scripts for downloading and wrangling a selection of relevant *corpora* from the literature of Automatic Text Summarization (ATS), as well as applying a variety of abstractive and extractive methods of summarization. The resulting summaries can then be evaluated using a selection of metrics from the literature. The scripts herein were developed with the processing of entire *corpora* in mind, making use of paralellization. However, single-document summarization and evaluation is also possible.
+## Objetivo
+Este repositório apresenta scripts em Python para baixar e manipular uma seleção de corpus relevantes da literatura de Sumarização Automática de Texto (ATS), bem como aplicar uma variedade de métodos abstratos e extractivos de sumarização. Os resumos resultantes podem então ser avaliados usando uma seleção de métricas da literatura. Os scripts aqui desenvolvidos foram desenvolvidos com o processamento de inteiros corpus em mente, fazendo uso de paralelização. No entanto, também é possível realizar sumarização e avaliação de documentos únicos.
 
-## MCTI Dataset + CNN Corpus download
-In addition to popular datasets from the literature on Natural Language Processing (NLP) available for download through the script itself, wrangling functions were implemented for the Research Project of Data Science Applied to the Financial Products Portfolio (PPF-MCTI) datasets, as well as the CNN Corpus dataset. These datasets must be downloaded externally and extracted to the root of the repository (in a folder named ./data) and are available here: [DOWNLOAD](https://zenodo.org/record/7262127)
+## Conjunto de dados MCTI + download do corpus CNN
 
-### Available Datasets:
+Além dos conjuntos de dados populares da literatura de Processamento de Linguagem Natural (PLN) disponíveis para download através do próprio script, foram implementadas funções de manipulação para os conjuntos de dados do Projeto de Pesquisa de Ciência de Dados Aplicada ao Portfólio de Produtos Financeiros (PPF-MCTI), bem como o conjunto de dados CNN Corpus. Esses conjuntos de dados devem ser baixados externamente e extraídos para a raiz do repositório (em uma pasta chamada ./data) e estão disponíveis aqui: [DOWNLOAD](https://zenodo.org/record/7262127)
+
+### Conjuntos de Dados Disponíveis:
 - ArXiv + PubMed
 - BIGPATENT
 - CNN + Daily Mail
@@ -16,7 +17,7 @@ In addition to popular datasets from the literature on Natural Language Processi
 - MCTI (Oportunities)
 - MCTI (Policies)
 
-### Available Extractive Summarization Methods:
+### Métodos de Sumarização Extractiva Disponíveis:
 - Reduction Summarizer
 - LexRank Summarizer
 - LSA Summarizer
@@ -25,12 +26,12 @@ In addition to popular datasets from the literature on Natural Language Processi
 - SumBasic Summarizer
 - TextRank Summarizer
 
-### Available Abstractive Summarization Methods:
+### Métodos de Sumarização Abstrativa Disponíveis:
 - BART
 - T5
 - PEGASUS
 
-### Available Summary Evaluation Methods:
+### Métodos de Avaliação de Resumo Disponíveis:
 - ROUGE
     - ROUGE-1,2,3,4
     - ROUGE-L
@@ -41,17 +42,17 @@ In addition to popular datasets from the literature on Natural Language Processi
 - Kullback-Leibler Divergences
 - Cosine Similarity
 
-# Classes and Methods
-The data importing, summarization and evaluation processes are defined in the `Data`, `Method` e `Evaluator` classes, respectively. The `main` function suggests the summarization and evaluation of 50 entries from all datasets available. The number of summaries to be generated $N$ can be modified in `Data.read_data(corpus, N)`. 
+# Classes e Métodos
+Os processos de importação de dados, sumarização e avaliação são definidos nas classes `Data`, `Method` e `Evaluator` , respectivamente. A função principal  `main`  sugere a sumarização e avaliação de 50 entradas de todos os conjuntos de dados disponíveis. O número de resumos a serem gerados N pode ser modificado em `Data.read_data(corpus, N)`.
 
-For CPU workloads, we suggest a low number of summaries $(N<100)$, given the long computing times, especially for abstractive *transformer* models. The results presented on our reports, generated with $N=3000$, were obtained with the help of Google Colab and GPU computing.
+Para cargas de trabalho de CPU, sugerimos um número baixo de resumos $(N<100)$, dada as longas tempos de computação, especialmente para modelos abstratos *transformer*. Os resultados apresentados em nossos relatórios, gerados com $N=3000$, foram obtidos com a ajuda do Google Colab e computação GPU.
 
-## Results
-The outputs for each corpus *corpus* in `.\results` are:
-- All the summaries generated, in a file terminated by `_examples.csv`
-- All the chosen evaluators' results, in a file terminated by `_results.csv`
+## Resultados
+As saídas para cada corpus *corpus* em `.\results` são:
 
-It should be mentioned that the literature datasets are downloaded using the `datasets` libarary, by huggingface, and may take a large amound of disk space.
+Todos os resumos gerados, em um arquivo finalizado por `_examples.csv`
+- Todos os resultados dos avaliadores escolhidos, em um arquivo finalizado por `_results.csv`
+- Deve ser mencionado que os conjuntos de dados da literatura são baixados usando a biblioteca `datasets`, da huggingface, e podem ocupar uma grande quantidade de espaço em disco.
 
 # References 
 

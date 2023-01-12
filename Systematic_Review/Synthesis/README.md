@@ -1,9 +1,10 @@
-# A comprehensive review of automatic text summarization techniques: method, data, evaluation and coding
+# Uma revisão abrangente de técnicas de sumarização automática de texto: método, dados, avaliação e codificação
 
-## Abstract
-We provide a literature review about Automatic Text Summarization (ATS) systems. We consider a citation-based approach. We start with some popular and well-known papers that we have in hand about each topic we want to cover and we have tracked the "backward citations" (papers that are cited by the set of papers we knew beforehand) and the "forward citations" (newer papers that cite the set of papers we knew beforehand). In order to organize the different methods, we present the diverse approaches to ATS guided by the mechanisms they use to generate a summary. Besides presenting the methods, we also present an extensive review of the datasets available for summarization tasks and the methods used to evaluate the quality of the summaries.  Finally, we present an empirical exploration of these methods using the CNN Corpus dataset that provides golden summaries for extractive and abstractive methods.
+## Resumo
+Fornecemos uma revisão literária sobre sistemas de Sumarização Automática de Texto (ATS). Consideramos uma abordagem baseada em citações. Começamos com alguns artigos populares e conhecidos que temos sobre cada tópico que queremos abordar e rastreamos as "citações reversas" (artigos que são citados pelo conjunto de artigos que já conhecíamos) e as "citações avançadas" (artigos mais novos que citam o conjunto de artigos que já conhecíamos). Para organizar os diferentes métodos, apresentamos as diversas abordagens para ATS guiadas pelos mecanismos que usam para gerar um resumo. Além de apresentar os métodos, também apresentamos uma revisão extensa dos conjuntos de dados disponíveis para tarefas de sumarização e os métodos usados para avaliar a qualidade dos resumos. Finalmente, apresentamos uma exploração empírica desses métodos usando o conjunto de dados CNN Corpus que fornece resumos ideais para métodos extractivos e abstrativos.
 
-## Preprint
+
+## Pré-impressão
 https://doi.org/10.48550/arxiv.2301.03403
 
 Cajueiro, Daniel O., Nery, Arthur G., Tavares, Igor, De Melo, Maísa K., Reis, Silvia A. dos, Weigang, Li and Celestino, Victor R. R. (2023). A comprehensive review of automatic text summarization techniques: method, data, evaluation and coding. arXiv preprint arxiv:2301.03403
